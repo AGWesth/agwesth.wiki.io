@@ -1,10 +1,11 @@
 ---
-extensions:
-  preset: zero
-  markdown:
-    table: true
-  katex:
-    enabled: true
+plugins:
+  - jekyll-mathjax
+
+mathjax:
+  path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  config: 'TeX-AMS_HTML-full'
+
 
 ---
 
